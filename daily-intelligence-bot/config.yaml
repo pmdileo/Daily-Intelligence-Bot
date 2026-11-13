@@ -1,0 +1,60 @@
+timezone: America/Chicago
+weather:
+  # Approximate Nimrod area for outdoor weather; adjust as needed.
+  latitude: 34.95
+  longitude: -93.18
+  label: Nimrod, Arkansas
+max_items_per_section: 5
+calendar_lookahead_days: 2
+# These are searches / monitoring sources, not assertions that anything changed.
+research_queries:
+  - 'cerebral palsy deep brain stimulation quality of life'
+  - 'neurosurgery surgical video epidermoid'
+feeds:
+  Neurosurgery and residency:
+    - name: Neurosurgery residency news
+      google_news_query: neurosurgery residency ERAS VSLO UAMS
+    - name: Neurosurgery innovations
+      google_news_query: neurosurgery clinical research
+  Markets and finance:
+    - name: Natural gas futures
+      google_news_query: natural gas futures Henry Hub NYMEX
+    - name: Markets
+      google_news_query: US stock market Federal Reserve economy
+  Arkansas hunting and outdoors:
+    - name: Arkansas wildlife
+      google_news_query: Arkansas Game and Fish Commission hunting waterfowl
+  AI and technology:
+    - name: AI developments
+      google_news_query: artificial intelligence machine learning developer tools
+  Kansas City Chiefs and NFL:
+    - name: Chiefs
+      google_news_query: Kansas City Chiefs NFL news injury roster
+    - name: NFL headlines
+      google_news_query: NFL injuries trades roster moves
+  Arkansas Razorbacks:
+    - name: Razorbacks football
+      google_news_query: Arkansas Razorbacks football SEC
+    - name: Razorbacks basketball
+      google_news_query: Arkansas Razorbacks basketball
+    - name: Razorbacks baseball
+      google_news_query: Arkansas Razorbacks baseball
+  College football and CFP:
+    - name: FBS and CFP
+      google_news_query: college football playoff FBS rankings news
+  Sports and fantasy basketball:
+    - name: NBA
+      google_news_query: NBA basketball injuries fantasy basketball
+    - name: Washington Wizards
+      google_news_query: Washington Wizards basketball
+official_links:
+  - label: UAMS Neurosurgery
+    url: https://medicine.uams.edu/neurosurgery/
+  - label: AAMC ERAS
+    url: https://students-residents.aamc.org/applying-residencies-eras/applying-residencies-eras
+  - label: AAMC VSLO
+    url: https://students-residents.aamc.org/visiting-student-learning-opportunities/visiting-student-learning-opportunities-vslo
+  - label: Arkansas Game & Fish Commission
+    url: https://www.agfc.com/
+  - label: USGS water dashboard
+    url: https://dashboard.waterdata.usgs.gov/

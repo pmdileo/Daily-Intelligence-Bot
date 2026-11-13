@@ -1,0 +1,18 @@
+# Edit your priorities here; only add due dates when confirmed.
+# Example due: '2026-11-20' (YYYY-MM-DD). Remove completed items.
+tasks:
+  - title: Progress cerebral palsy and DBS quality-of-life systematic review
+    category: Research
+    priority: high
+  - title: Continue epidermoid tumor surgical-video write-up
+    category: Research
+    priority: medium
+  - title: Review Anki and clinical study plan
+    category: Education
+    priority: medium
+  - title: Check neurosurgery research correspondence and next steps
+    category: Career
+    priority: medium
+  - title: Review hunting plans and weather before the next outing
+    category: Outdoors
+    priority: low

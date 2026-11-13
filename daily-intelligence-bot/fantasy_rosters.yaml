@@ -1,0 +1,10 @@
+# Basketball fallback: replace examples with YOUR actual current players.
+# Leave empty until verified. Never put credentials here.
+basketball: []
+# Example:
+# basketball:
+#   - league: "My Sleeper dynasty basketball league"
+#     players:
+#       - name: "Player One"
+#         team: "WAS"
+#       - name: "Player Two"
